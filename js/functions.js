@@ -38,7 +38,7 @@ const checkForPolyndromes = (string) =>{
   string = string.replaceAll(' ','');
   string = string.toLowerCase();
 
-  const reversedString = string. split('').reverse().join('');
+  const reversedString = string.split('').reverse().join('');
   return(string === reversedString);
 };
 
